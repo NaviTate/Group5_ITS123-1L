@@ -3,381 +3,117 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>The Legend of Zelda: Timeline Archive</title>
+    <title>The Ideal Gacha Compendium</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
 
     <header>
-        <h1>The Legend of Zelda</h1>
-        <p class="subtitle">A Chronological Journey Through Hyrule's History</p>
+        <h1>Enter beyond the world of Gacha</h1>
+        <nav>
+            <a href="index.html">Games</a>
+            <a href="tierlist.html">Tier Lists</a>
+            <a href="lore.html">Lore & Guides</a>
+        </nav>
     </header>
 
     <main>
-        <section id="intro">
-            <p class="eyebrow">A release history archive</p>
-            <h2>Every era. One legendary quest.</h2>
-            <p class="intro-text">
-                Embark on a retro journey through the iconic adventure game series that has 
-                captivated players for over 35 years. From the original NES classic to modern 
-                masterpieces, explore how Link's legend has evolved across generations.
-            </p>
-        </section>
-
-        <nav class="era-map" aria-label="Jump to an era">
-            <span class="map-label">Map of Hyrule's release eras</span>
-            <a href="#era-1980s">1980s</a>
-            <a href="#era-1990s">1990s</a>
-            <a href="#era-2000s">2000s</a>
-            <a href="#era-2010s">2010s+</a>
-        </nav>
-
-        <section class="secrets-panel" aria-labelledby="secrets-title">
-            <h2 id="secrets-title">Mystery Markers</h2>
-            <p>Three hidden secrets are waiting. Guess what each one reveals.</p>
-            <div class="secrets-list">
-                <button class="easter-egg" id="secret1" type="button" aria-label="Mystery marker 1">Secret I</button>
-                <button class="easter-egg" id="secret2" type="button" aria-label="Mystery marker 2">Secret II</button>
-                <button class="easter-egg" id="secret3" type="button" aria-label="Mystery marker 3">Secret III</button>
-            </div>
-        </section>
-
-        <section id="timeline">
-            <article class="decade" id="era-1980s" data-year="1980s">
-                <h2>1980s</h2>
-                <div class="timeline-container">
-                    <article class="game-entry">
-                        <div class="game-info">
-                            <h3>The Legend of Zelda</h3>
-                            <span class="release-date">November 21, 1986</span>
-                            <span class="platform">NES / Famicom Disk Storage</span>
-                        </div>
-                        <figure class="game-image">
-                            <img src="assets/zelda-nes.jpg" alt="The Legend of Zelda NES cover">
-                            <figcaption>Birth of the adventure genre</figcaption>
-                        </figure>
-                        <div class="game-desc">
-                            <p>The original masterpiece that introduced open-world adventure gaming. 
-                            Navigate the Overworld, explore 3D dungeons, and defeat Ganon to save 
-                            Princess Zelda and Hyrule.</p>
-                        </div>
-                    </article>
-                </div>
+        <section id="gacha-grid">
+            
+            <a href="game-hsr.html" class="game-card-link">
+            <article>
+                <figure>
+                    <img src="assets/hsr-bg.jpg" alt="Honkai Star Rail Art" class="card-bg">
+                    <img src="assets/hsr-icon.jpg" alt="March 7th Icon" class="avatar">
+                </figure>
+                <aside>Honkai: Star Rail</aside>
+                <h2>March 7th</h2>
             </article>
+            </a>
 
-            <article class="decade" id="era-1990s" data-year="1990s">
-                <h2>1990s</h2>
-                <div class="timeline-container">
-                    <article class="game-entry">
-                        <div class="game-info">
-                            <h3>Adventure of Link</h3>
-                            <span class="release-date">August 1, 1991</span>
-                            <span class="platform">NES / Famicom Disk System</span>
-                        </div>
-                        <figure class="game-image">
-                            <img src="assets/zelda-adv-of-link.jpg" alt="Adventure of Link cover">
-                            <figcaption>The RPG evolution</figcaption>
-                        </figure>
-                        <div class="game-desc">
-                            <p>A bold departure from the original, featuring RPG elements like 
-                            experience points, a separate spell system, and an isometric view. 
-                            Often considered the most difficult Zelda title.</p>
-                        </div>
-                    </article>
-
-                    <article class="game-entry">
-                        <div class="game-info">
-                            <h3>Link's Awakening</h3>
-                            <span class="release-date">June 6, 1993</span>
-                            <span class="platform">Game Boy</span>
-                        </div>
-                        <figure class="game-image">
-                            <img src="assets/zelda-link-awakening.jpg" alt="Link's Awakening cover">
-                            <figcaption>Dream island adventure</figcaption>
-                        </figure>
-                        <div class="game-desc">
-                            <p>Stranded on a mysterious island, Link must rescue the wind from 
-                            eight musical instruments. Beautifully translated to the Game Boy 
-                            with a dreamlike narrative and charming graphics.</p>
-                        </div>
-                    </article>
-
-                    <article class="game-entry">
-                        <div class="game-info">
-                            <h3>Super Mario Bros. / Zelda: Crossover</h3>
-                            <span class="release_date">1994</span>
-                            <span class="platform"> Nintendo Power Famicom Magazine</span>
-                        </div>
-                        <figure class="game-image">
-                            <img src="assets/zelda-famicom-triforce.jpg" alt="Triforce Collection">
-                            <figcaption>Famicom 6-game collection</figcaption>
-                        </figure>
-                        <div class="game-desc">
-                            <p>Part of the Famicom 6-game collection, this compilation included 
-                            the original Zelda, Adventure of Link, and other classics. A rare 
-                            collector's item for fans.</p>
-                        </div>
-                    </article>
-
-                    <article class="game-entry">
-                        <div class="game-info">
-                            <h3>Link: The Faces of Evil</h3>
-                            <span class="release-date">1995</span>
-                            <span class="platform">CD-i (Controversial)</span>
-                        </div>
-                        <figure class="game-image">
-                            <img src="assets/zelda-faces-of-evil.jpg" alt="Faces of Evil cover">
-                            <figcaption>The CD-i anomaly</figcaption>
-                        </figure>
-                        <div class="game-desc">
-                            <p>A controversial adaptation made without Nintendo's direct involvement. 
-                            Despite its flaws, it remains a curious footnote in Zelda history 
-                            and a sought-after collector's item.</p>
-                        </div>
-                    </article>
-                </div>
+            <a href="game-zzz.html" class="game-card-link">
+            <article>
+                <figure>
+                    <img src="assets/zzz-bg.jpg" alt="Zenless Zone Zero Art" class="card-bg">
+                    <img src="assets/zzz-icon.jpg" alt="Anby Icon" class="avatar">
+                </figure>
+                <aside>Zenless Zone Zero</aside>
+                <h2>Anby Demara</h2>
             </article>
+            </a>
 
-            <article class="decade" id="era-2000s" data-year="2000s">
-                <h2>2000s</h2>
-                <div class="timeline-container">
-                    <article class="game-entry">
-                        <div class="game-info">
-                            <h3>The Legend of Zelda: Ocarina of Time</h3>
-                            <span class="release-date">November 21, 1998 (JP) / 2000 (Worldwide)</span>
-                            <span class="platform">Nintendo 64</span>
-                        </div>
-                        <figure class="game-image">
-                            <img src="assets/zelda-ocarina.jpg" alt="Ocarina of Time cover">
-                            <figcaption>3D adventure revolution</figcaption>
-                        </figure>
-                        <div class="game-desc">
-                            <p>The game that defined 3D adventure gaming. Introduced context-sensitive 
-                            buttons, lock-on targeting, and cinematic storytelling. Often cited 
-                            as one of the greatest games of all time.</p>
-                        </div>
-                    </article>
-
-                    <article class="game-entry">
-                        <div class="game-info">
-                            <h3>The Legend of Zelda: Majora's Mask</h3>
-                            <span class="release-date">July 22, 2000</span>
-                            <span class="platform">Nintendo 64</span>
-                        </div>
-                        <figure class="game-image">
-                            <img src="assets/zelda-majoras-mask.jpg" alt="Majora's Mask cover">
-                            <figcaption>Time-loop masterpiece</figcaption>
-                        </figure>
-                        <div class="game-desc">
-                            <p>A darker, more mature sequel featuring the iconic time-travel 
-                            mechanic. The 3-day cycle creates a unique sense of urgency and 
-                            depth unmatched in other Zelda titles.</p>
-                        </div>
-                    </article>
-
-                    <article class="game-entry">
-                        <div class="game-info">
-                            <h3>The Legend of Zelda: Ocarina of Time / Master Quest</h3>
-                            <span class="release-date">November 17, 2002</span>
-                            <span class="platform">GameCube</span>
-                        </div>
-                        <figure class="game-image">
-                            <img src="assets/zelda-gc.jpg" alt="GameCube Master Collection">
-                            <figcaption>Master Collection</figcaption>
-                        </figure>
-                        <div class="game-desc">
-                            <p>The original Ocarina of Time got a second life on GameCube with 
-                            the addition of Master Quest - a mirrored dungeon experience with 
-                            redesigned puzzles and increased difficulty.</p>
-                        </div>
-                    </article>
-
-                    <article class="game-entry">
-                        <div class="game-info">
-                            <h3>The Legend of Zelda: Wind Waker</h3>
-                            <span class="release-date">March 24, 2002</span>
-                            <span class="platform">Nintendo GameCube</span>
-                        </div>
-                        <figure class="game-image">
-                            <img src="assets/zelda-wind-waker.jpg" alt="Wind Waker cover">
-                            <figcaption>Cartoony masterpiece</figcaption>
-                        </figure>
-                        <div class="game-desc">
-                            <p>A bold artistic choice that shocked fans initially but became 
-                            beloved for its charming cel-shaded graphics and expansive ocean 
-                            exploration. Revolutionized sailing mechanics in adventure games.</p>
-                        </div>
-                    </article>
-
-                    <article class="game-entry">
-                        <div class="game-info">
-                            <h3>The Legend of Zelda: Four Swords Adventures</h3>
-                            <span class="release-date">November 17, 2002</span>
-                            <span class="platform">Nintendo GameCube</span>
-                        </div>
-                        <figure class="game-image">
-                            <img src="assets/zelda-four-swords.jpg" alt="Four Swords Adventures cover">
-                            <figcaption>Multiplayer Zelda</figcaption>
-                        </figure>
-                        <div class="game-desc">
-                            <p>The first multiplayer-focused Zelda title, supporting up to four 
-                            players. Features both cooperative and competitive modes with unique 
-                            gameplay mechanics centered around the Four Swords.</p>
-                        </div>
-                    </article>
-                </div>
+            <a href="game-arknights.html" class="game-card-link">
+            <article>
+                <figure>
+                    <img src="assets/arknights-bg.jpg" alt="Arknights Endfield Art" class="card-bg">
+                    <img src="assets/arknights-icon.jpg" alt="Perlica Icon" class="avatar">
+                </figure>
+                <aside>Arknights Endfield</aside>
+                <h2>Perlica</h2>
             </article>
+            </a>
 
-            <article class="decade" id="era-2010s" data-year="2010s">
-                <h2>2010s</h2>
-                <div class="timeline-container">
-                    <article class="game-entry">
-                        <div class="game-info">
-                            <h3>The Legend of Zelda: Skyward Sword</h3>
-                            <span class="release-date">November 20, 2011</span>
-                            <span class="platform">Wii</span>
-                        </div>
-                        <figure class="game-image">
-                            <img src="assets/zelda-skyward-sword.jpg" alt="Skyward Sword cover">
-                            <figcaption>The origin story</figcaption>
-                        </figure>
-                        <div class="game-desc">
-                            <p>The chronological prequel that explains the origins of Zelda, 
-                            Link, and the sword that bears her name. Utilized motion controls 
-                            for swordplay and introduced the Birdoo companion.</p>
-                        </div>
-                    </article>
-
-                    <article class="game-entry">
-                        <div class="game-info">
-                            <h3>The Legend of Zelda: Skyward Sword (HD)</h3>
-                            <span class="release-date">July 15, 2023</span>
-                            <span class="platform">Nintendo Switch</span>
-                        </div>
-                        <figure class="game-image">
-                            <img src="./assets/zelda-skyward-sword-hd.jpg" alt="Skyward Sword HD cover" loading="eager">
-                            <figcaption>HD Remaster</figcaption>
-                        </figure>
-                        <div class="game-desc">
-                            <p>A completely remastered version with improved graphics, 
-                            refined motion controls, and additional content. Features 
-                            an expanded Adventure Log and new fast-travel options.</p>
-                        </div>
-                    </article>
-
-                    <article class="game-entry">
-                        <div class="game-info">
-                            <h3>The Legend of Zelda: A Link Between Worlds</h3>
-                            <span class="release-date">November 22, 2013</span>
-                            <span class="platform">Nintendo 3DS</span>
-                        </div>
-                        <figure class="game-image">
-                            <img src="assets/zelda-alb.jpg" alt="A Link Between Worlds cover">
-                            <figcaption>Yoshi's Island influence</figcaption>
-                        </figure>
-                        <div class="game-desc">
-                            <p>A spiritual successor to Link's Awakening, blending classic 
-                            Zelda mechanics with innovative wall-merging abilities. Features 
-                            a non-linear progression system and the iconic Yoshi-inspired art style.</p>
-                        </div>
-                    </article>
-
-                    <article class="game-entry">
-                        <div class="game-info">
-                            <h3>The Legend of Zelda: Tri Force Heroes</h3>
-                            <span class="release-date">October 23, 2015</span>
-                            <span class="platform">Nintendo 3DS</span>
-                        </div>
-                        <figure class="game-image">
-                            <img src="assets/zelda-triforce-heroes.jpg" alt="Tri Force Heroes cover">
-                            <figcaption>Co-op trio adventure</figcaption>
-                        </figure>
-                        <div class="game-desc">
-                            <p>A multiplayer-focused adventure where three Links work together 
-                            to solve puzzles. Built on the A Link Between Worlds engine with 
-                            a uniquetriangular visual style.</p>
-                        </div>
-                    </article>
-
-                    <article class="game-entry">
-                        <div class="game-info">
-                            <h3>The Legend of Zelda: Breath of the Wild</h3>
-                            <span class="release-date">March 3, 2017</span>
-                            <span class="platform">Nintendo Switch / Wii U</span>
-                        </div>
-                        <figure class="game-image">
-                            <img src="assets/zelda-botw.jpg" alt="Breath of the Wild cover">
-                            <figcaption>Open world redefined</figcaption>
-                        </figure>
-                        <div class="game-desc">
-                            <p>The game that redefined open-world gaming. Features unprecedented 
-                            player freedom, physics-based gameplay, and a broken Hyrule waiting 
-                            to be explored. Won Game of the Year awards across multiple outlets.</p>
-                        </div>
-                    </article>
-
-                    <article class="game-entry">
-                        <div class="game-info">
-                            <h3>The Legend of Zelda: Link's Awakening</h3>
-                            <span class="release-date">September 20, 2019</span>
-                            <span class="platform">Nintendo Switch</span>
-                        </div>
-                        <figure class="game-image">
-                            <img src="assets/zelda-link-awakening-switch.jpg" alt="Link's Awakening Switch cover">
-                            <figcaption>Dream Remake</figcaption>
-                        </figure>
-                        <div class="game-desc">
-                            <p>A complete visual overhaul of the Game Boy classic, featuring 
-                            a charming claymation style. Includes a new dungeon, photography 
-                            mode, and modern quality-of-life improvements.</p>
-                        </div>
-                    </article>
-
-                    <article class="game-entry">
-                        <div class="game-info">
-                            <h3>The Legend of Zelda: Tears of the Kingdom</h3>
-                            <span class="release-date">May 12, 2023</span>
-                            <span class="platform">Nintendo Switch</span>
-                        </div>
-                        <figure class="game-image">
-                            <img src="assets/zelda-totk.jpg" alt="Tears of the Kingdom cover">
-                            <figcaption>Ultrahand & Ascend</figcaption>
-                        </figure>
-                        <div class="game-desc">
-                            <p>The triumphant sequel to Breath of the Wild, introducing 
-                            powerful new abilities like Ultrahand, Ascend, and Fuse. 
-                            Takes place in the Sky Islands above Hyrule.</p>
-                        </div>
-                    </article>
-
-                    <article class="game-entry">
-                        <div class="game-info">
-                            <h3>The Legend of Zelda: Echoes of Wisdom</h3>
-                            <span class="release-date">September 26, 2024</span>
-                            <span class="platform">Nintendo Switch</span>
-                        </div>
-                        <figure class="game-image">
-                            <img src="assets/zelda-echoes-of-wisdom.jpg" alt="Echoes of Wisdom cover">
-                            <figcaption>Zelda's first starring adventure</figcaption>
-                        </figure>
-                        <div class="game-desc">
-                            <p>Princess Zelda takes the lead in a top-down adventure where the 
-                            mysterious Tri Rod can create echoes of objects and enemies. Use 
-                            clever copies to solve puzzles, explore Hyrule, and rescue Link.</p>
-                        </div>
-                    </article>
-                </div>
+            <a href="game-crk.html" class="game-card-link">
+            <article>
+                <figure>
+                    <img src="assets/crk-bg.jpg" alt="Cookie Run Kingdom Art" class="card-bg">
+                    <img src="assets/crk-icon.jpg" alt="GingerBrave Icon" class="avatar">
+                </figure>
+                <aside>Cookie Run Kingdom</aside>
+                <h2>GingerBrave</h2>
             </article>
+            </a>
+
+            <a href="game-limbus.html" class="game-card-link">
+            <article>
+                <figure>
+                    <img src="assets/limbus-bg.jpg" alt="Limbus Company Art" class="card-bg">
+                    <img src="assets/limbus-icon.jpg" alt="Dante Icon" class="avatar">
+                </figure>
+                <aside>Limbus Company</aside>
+                <h2>Dante</h2>
+            </article>
+            </a>
+
+            <a href="game-ww.html" class="game-card-link">
+            <article>
+                <figure>
+                    <img src="assets/ww-bg.jpg" alt="Wuthering Waves Art" class="card-bg">
+                    <img src="assets/ww-icon.jpg" alt="Rover Icon" class="avatar">
+                </figure>
+                <aside>Wuthering Waves</aside>
+                <h2>Rover</h2>
+            </article>
+            </a>
+
+            <a href="game-p5x.html" class="game-card-link">
+            <article>
+                <figure>
+                    <img src="assets/p5x-bg.jpg" alt="Persona 5x Art" class="card-bg">
+                    <img src="assets/p5x-icon.jpg" alt="Wonder Icon" class="avatar">
+                </figure>
+                <aside>Persona 5x</aside>
+                <h2>Wonder</h2>
+            </article>
+            </a>
+
+            <a href="game-nte.html" class="game-card-link">
+            <article>
+                <figure>
+                    <img src="assets/nte-bg.jpg" alt="Neverness to Everness Art" class="card-bg">
+                    <img src="assets/nte-icon.jpg" alt="Mint Icon" class="avatar">
+                </figure>
+                <aside>Neverness to Everness</aside>
+                <h2>Mint</h2>
+            </article>
+            </a>
 
         </section>
     </main>
 
     <footer>
-        <p>&copy; 2024 Zelda Timeline Archive. All rights reserved.</p>
-        <p class="disclaimer">The Legend of Zelda is a trademark of Nintendo. This fan site is 
-        not affiliated with Nintendo, EAD, or any official Zelda developers.</p>
+        <p>&copy; 2026 The Ideal Gacha Compendium. All rights reserved.</p>
     </footer>
 
-    <script src="script.js"></script>
 </body>
 </html>

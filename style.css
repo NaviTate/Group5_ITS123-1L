@@ -577,11 +577,12 @@ main {
     display: grid;
     grid-template-columns: repeat(4, minmax(0, 1fr));
     gap: 12px;
-    align-items: start;
+    align-items: stretch;
 }
 
 .game-entry {
     display: flex;
+    height: 100%;
     min-height: 180px;
     flex-direction: column;
     gap: 7px;
